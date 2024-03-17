@@ -89,6 +89,6 @@ void Widget::on_pbReset_clicked()
     mb.information(nullptr, " ",msg+msg1+msg2+msg3);
 
     ui->lcdNumber->display(money);
-
+    changeEnable();
 }
 
